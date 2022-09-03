@@ -37,11 +37,17 @@ export default function Layout({children}){
                 <a className={styles.navlink}>Portfolios</a>
                 </Link>
             </li>
+            <li className={styles.navitem}>
+              <Link href="/login">
+                <a className={styles.navlink}>Login</a>
+                </Link>
+            </li>
           </ul>
           <button className={isOpen===false ? styles.hamburger : styles.hamburger + ' ' + styles.active} onClick={openMenu}>
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>
             < span className={styles.bar}></span>
+            <span className={styles.bar}></span>
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>
           </button>
