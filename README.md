@@ -3,6 +3,13 @@ Repo for frontend management system of macs website
 
 ## Getting Started
 
+Install the dependencies using the command 
+```bash
+npm install
+or
+yarn
+````
+
 To run the develpoment server, use
 
 ```bash
