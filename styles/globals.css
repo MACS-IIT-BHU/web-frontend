@@ -5,9 +5,9 @@
 }
 
 html,body, body * { 
-  font-family: 'Lucida Handwriting', cursive; 
-  color:white;
-  background-color:black;
+  font-family: 'Times New Roman', serif; 
+  color:black;
+  background-color:white;
  font-size: 62.5%;
 }
 

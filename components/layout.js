@@ -8,9 +8,12 @@ export default function Layout({children}){
     return<>
     
     <header className={styles.header}>
+      <logo className={styles.logo}>
+      <a className={styles.navlogo}>[InstiLogo] </a>
+      <a className={styles.navlogo}>[DeptLogo]</a>
+      </logo>
         <nav className={styles.navbar}>
-            <a className={styles.navlogo}>[InstiLogo]</a>
-            <a className={styles.navlogo}>[DeptLogo]</a>
+            
           <ul className={isOpen === false ? styles.navmenu : styles.navmenu + ' ' +styles.active}>
             <li className={styles.navitem}>
               <Link href="/">
