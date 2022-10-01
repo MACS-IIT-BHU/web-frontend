@@ -9,8 +9,8 @@ export default function Layout({children}){
     
     <header className={styles.header}>
       <logo className={styles.logo}>
-      <a className={styles.navlogo}>[InstiLogo] </a>
-      <a className={styles.navlogo}>[DeptLogo]</a>
+        <li className={styles.navlog}><Link href="https://www.iitbhu.ac.in/"><a className={styles.navlogo}>InstiLogo</a></Link> </li>
+        <li className={styles.navlog}><Link href="/"><a className={styles.navlogo}>DeptLogo</a></Link></li>
       </logo>
         <nav className={styles.navbar}>
             
