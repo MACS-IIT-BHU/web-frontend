@@ -50,9 +50,6 @@ export default function Layout({children}){
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>
             < span className={styles.bar}></span>
-            <span className={styles.bar}></span>
-            <span className={styles.bar}></span>
-            <span className={styles.bar}></span>
           </button>
         </nav>
       </header>
